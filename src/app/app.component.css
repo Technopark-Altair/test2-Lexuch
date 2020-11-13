@@ -1,0 +1,17 @@
+.calc {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 1500px) {
+  .calc {
+    text-align: center;
+    width: auto;
+  }
+}
